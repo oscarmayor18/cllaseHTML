@@ -1,0 +1,109 @@
+@font-face{
+	font-family: titulo;
+	src:url("../font/titulo.ttf");
+}
+
+@font-face{
+	font-family: menu;
+	src:url("../font/black.ttf");
+}
+@font-face{
+	font-family: tex;
+	src:url("../font/Viga.ttf");
+}
+
+body{
+	width: 1000px;
+	margin: 0 auto;
+	background: linear-gradient(to bottom, rgba(208,228,247,1) 0%,rgba(115,177,231,1) 24%,rgba(10,119,213,1) 50%,rgba(83,159,225,1) 79%,rgba(135,188,234,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+h1{
+	color: #000;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: titulo;
+	text-shadow: 4px 4px #fff;
+	font-size: 50px;
+}
+
+#content{
+	overflow: auto;
+	height: 100%;
+}
+
+#nav{
+	height: 50px;
+	background-color: #4178CD;
+	align: center;
+}
+#feature, #footer{
+	background-color: #00BDF9;
+	padding: 10px;
+	margin: 10px;
+}
+
+.parte1, .parte2{
+    width: 400px;
+	float: left;
+	margin: 10px;
+   background-color: #00BDF9;
+   margin-left: 60px;
+
+}
+
+ul{
+	margin-left: 300px;
+	align:center;
+}
+
+li {
+	display: inline;
+	padding: 5px;
+	color: #fff;
+	
+}
+#nav li {
+	font-family: menu;
+
+
+}
+a{
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #00BDF9;
+	text-decoration: underline;
+}
+
+.imag1{
+    width: 350px;
+	height: 250px;
+	margin-left: 20px;
+	float:right;
+}
+.imag2{
+	width: 400px;
+	height: 300px;
+
+}
+.imag3{
+	width: 410px;
+	height: 300px;
+}
+.texto{
+	color: #fff;
+	text-align:justify;
+	font-size: 18px;
+	margin: 20px;
+	font-family: tex;
+}
+.video1{
+	width: 400px;
+	height: 300px;
+	margin-left: 20px;
+	float:right;
+}
+
